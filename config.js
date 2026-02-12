@@ -14,7 +14,7 @@ const CONFIG = {
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: [🩵', '💙', '🪻', '💐', '🌷'],  // Heart emojis
+        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
         bears: ['🧸', '🐻']                       // Cute bear emojis
     },
 
@@ -33,9 +33,9 @@ const CONFIG = {
             nextBtn: "Next "                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2026? ", // The big question!
+            text: "Will you be my Valentine?", // The big question!
             yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "Are you sure? 🥺"                                                 // Text for "No" button
+            noBtn: "Are you sure?"                                                 // Text for "No" button
         }
     },
 
@@ -44,7 +44,7 @@ const CONFIG = {
     loveMessages: {
         extreme: "WACHAO RELAX SISTER I LOVE YOU ALOT MANY MUCH ALSO",  // Shows when they go past 5000%
         high: "That’s the kind of love I’ll treasure forever 🩵",              // Shows when they go past 1000%
-        normal: "Not bad… but I know you can go higher 😏"                           // Shows when they go past 100%
+        normal: "Not bad… but I know you can go higher"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
@@ -57,11 +57,11 @@ const CONFIG = {
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#000000",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#0f2027",        // Gradient end (should complement backgroundStart)
-        buttonBackground: "#1e90ff",     // Button color (should stand out against the background)
-        buttonHover: "#3aa0ff",          // Button hover color (slightly lighter than buttonBackground)
-        textColor: "#4da6ff"             // Text color (make sure it's readable!)
+        backgroundStart: "#061E29",      // Gradient start (try pastel colors for a soft look)
+        backgroundEnd: "#1D546D",        // Gradient end (should complement backgroundStart)
+        buttonBackground: "#1B3C53",     // Button color (should stand out against the background)
+        buttonHover: "#456882",          // Button hover color (slightly lighter than buttonBackground)
+        textColor: "#222831"             // Text color (make sure it's readable!)
     },
 
     // Animation settings
