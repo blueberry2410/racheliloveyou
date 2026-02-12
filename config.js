@@ -30,10 +30,10 @@ const CONFIG = {
         second: {
             text: "How much do you love me?",                          // For the love meter
             startText: "This much!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
+            nextBtn: "Next "                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2026? 🌸", // The big question!
+            text: "Will you be my Valentine on February 14th, 2026? ", // The big question!
             yesBtn: "Yes!",                                             // Text for "Yes" button
             noBtn: "Are you sure? 🥺"                                                 // Text for "No" button
         }
@@ -50,7 +50,7 @@ const CONFIG = {
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "LET'S GOOOOO LAAA 💙🦫💐",
-        message: "You're officially locked in with me. No refunds. No returns. Thank you for choosing me. I promise to make every day feel special, not just February 14th.",
+        message: "You're officially locked in with me. No refunds. No returns.",
         emojis: "🦫💙🪻🩵💋🎉"  // These will bounce around
     },
 
